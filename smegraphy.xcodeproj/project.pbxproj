@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4FF56AF1C7B0FC4003F9B40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FF56AE1C7B0FC4003F9B40 /* AppDelegate.swift */; };
+		D4FF56B11C7B0FC4003F9B40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FF56B01C7B0FC4003F9B40 /* ViewController.swift */; };
+		D4FF56B41C7B0FC4003F9B40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FF56B21C7B0FC4003F9B40 /* Main.storyboard */; };
+		D4FF56B61C7B0FC4003F9B40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FF56B51C7B0FC4003F9B40 /* Assets.xcassets */; };
+		D4FF56B91C7B0FC4003F9B40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FF56B71C7B0FC4003F9B40 /* LaunchScreen.storyboard */; };
+		D4FF56C41C7B0FC4003F9B40 /* smegraphyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FF56C31C7B0FC4003F9B40 /* smegraphyTests.swift */; };
+		D4FF56CF1C7B0FC4003F9B40 /* smegraphyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FF56CE1C7B0FC4003F9B40 /* smegraphyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4FF56C01C7B0FC4003F9B40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4FF56A31C7B0FC4003F9B40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4FF56AA1C7B0FC4003F9B40;
+			remoteInfo = smegraphy;
+		};
+		D4FF56CB1C7B0FC4003F9B40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4FF56A31C7B0FC4003F9B40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4FF56AA1C7B0FC4003F9B40;
+			remoteInfo = smegraphy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4FF56AB1C7B0FC4003F9B40 /* smegraphy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smegraphy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4FF56AE1C7B0FC4003F9B40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4FF56B01C7B0FC4003F9B40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4FF56B31C7B0FC4003F9B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4FF56B51C7B0FC4003F9B40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4FF56B81C7B0FC4003F9B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4FF56BA1C7B0FC4003F9B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4FF56BF1C7B0FC4003F9B40 /* smegraphyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smegraphyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4FF56C31C7B0FC4003F9B40 /* smegraphyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smegraphyTests.swift; sourceTree = "<group>"; };
+		D4FF56C51C7B0FC4003F9B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4FF56CA1C7B0FC4003F9B40 /* smegraphyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smegraphyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4FF56CE1C7B0FC4003F9B40 /* smegraphyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smegraphyUITests.swift; sourceTree = "<group>"; };
+		D4FF56D01C7B0FC4003F9B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4FF56A81C7B0FC4003F9B40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FF56BC1C7B0FC4003F9B40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FF56C71C7B0FC4003F9B40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4FF56A21C7B0FC4003F9B40 = {
+			isa = PBXGroup;
+			children = (
+				D4FF56AD1C7B0FC4003F9B40 /* smegraphy */,
+				D4FF56C21C7B0FC4003F9B40 /* smegraphyTests */,
+				D4FF56CD1C7B0FC4003F9B40 /* smegraphyUITests */,
+				D4FF56AC1C7B0FC4003F9B40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4FF56AC1C7B0FC4003F9B40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4FF56AB1C7B0FC4003F9B40 /* smegraphy.app */,
+				D4FF56BF1C7B0FC4003F9B40 /* smegraphyTests.xctest */,
+				D4FF56CA1C7B0FC4003F9B40 /* smegraphyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4FF56AD1C7B0FC4003F9B40 /* smegraphy */ = {
+			isa = PBXGroup;
+			children = (
+				D4FF56AE1C7B0FC4003F9B40 /* AppDelegate.swift */,
+				D4FF56B01C7B0FC4003F9B40 /* ViewController.swift */,
+				D4FF56B21C7B0FC4003F9B40 /* Main.storyboard */,
+				D4FF56B51C7B0FC4003F9B40 /* Assets.xcassets */,
+				D4FF56B71C7B0FC4003F9B40 /* LaunchScreen.storyboard */,
+				D4FF56BA1C7B0FC4003F9B40 /* Info.plist */,
+			);
+			path = smegraphy;
+			sourceTree = "<group>";
+		};
+		D4FF56C21C7B0FC4003F9B40 /* smegraphyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4FF56C31C7B0FC4003F9B40 /* smegraphyTests.swift */,
+				D4FF56C51C7B0FC4003F9B40 /* Info.plist */,
+			);
+			path = smegraphyTests;
+			sourceTree = "<group>";
+		};
+		D4FF56CD1C7B0FC4003F9B40 /* smegraphyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4FF56CE1C7B0FC4003F9B40 /* smegraphyUITests.swift */,
+				D4FF56D01C7B0FC4003F9B40 /* Info.plist */,
+			);
+			path = smegraphyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4FF56AA1C7B0FC4003F9B40 /* smegraphy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4FF56D31C7B0FC4003F9B40 /* Build configuration list for PBXNativeTarget "smegraphy" */;
+			buildPhases = (
+				D4FF56A71C7B0FC4003F9B40 /* Sources */,
+				D4FF56A81C7B0FC4003F9B40 /* Frameworks */,
+				D4FF56A91C7B0FC4003F9B40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smegraphy;
+			productName = smegraphy;
+			productReference = D4FF56AB1C7B0FC4003F9B40 /* smegraphy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4FF56BE1C7B0FC4003F9B40 /* smegraphyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4FF56D61C7B0FC4003F9B40 /* Build configuration list for PBXNativeTarget "smegraphyTests" */;
+			buildPhases = (
+				D4FF56BB1C7B0FC4003F9B40 /* Sources */,
+				D4FF56BC1C7B0FC4003F9B40 /* Frameworks */,
+				D4FF56BD1C7B0FC4003F9B40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4FF56C11C7B0FC4003F9B40 /* PBXTargetDependency */,
+			);
+			name = smegraphyTests;
+			productName = smegraphyTests;
+			productReference = D4FF56BF1C7B0FC4003F9B40 /* smegraphyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4FF56C91C7B0FC4003F9B40 /* smegraphyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4FF56D91C7B0FC4003F9B40 /* Build configuration list for PBXNativeTarget "smegraphyUITests" */;
+			buildPhases = (
+				D4FF56C61C7B0FC4003F9B40 /* Sources */,
+				D4FF56C71C7B0FC4003F9B40 /* Frameworks */,
+				D4FF56C81C7B0FC4003F9B40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4FF56CC1C7B0FC4003F9B40 /* PBXTargetDependency */,
+			);
+			name = smegraphyUITests;
+			productName = smegraphyUITests;
+			productReference = D4FF56CA1C7B0FC4003F9B40 /* smegraphyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4FF56A31C7B0FC4003F9B40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yoshiki Kawakita";
+				TargetAttributes = {
+					D4FF56AA1C7B0FC4003F9B40 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D4FF56BE1C7B0FC4003F9B40 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D4FF56AA1C7B0FC4003F9B40;
+					};
+					D4FF56C91C7B0FC4003F9B40 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D4FF56AA1C7B0FC4003F9B40;
+					};
+				};
+			};
+			buildConfigurationList = D4FF56A61C7B0FC4003F9B40 /* Build configuration list for PBXProject "smegraphy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4FF56A21C7B0FC4003F9B40;
+			productRefGroup = D4FF56AC1C7B0FC4003F9B40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4FF56AA1C7B0FC4003F9B40 /* smegraphy */,
+				D4FF56BE1C7B0FC4003F9B40 /* smegraphyTests */,
+				D4FF56C91C7B0FC4003F9B40 /* smegraphyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4FF56A91C7B0FC4003F9B40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4FF56B91C7B0FC4003F9B40 /* LaunchScreen.storyboard in Resources */,
+				D4FF56B61C7B0FC4003F9B40 /* Assets.xcassets in Resources */,
+				D4FF56B41C7B0FC4003F9B40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FF56BD1C7B0FC4003F9B40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FF56C81C7B0FC4003F9B40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4FF56A71C7B0FC4003F9B40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4FF56B11C7B0FC4003F9B40 /* ViewController.swift in Sources */,
+				D4FF56AF1C7B0FC4003F9B40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FF56BB1C7B0FC4003F9B40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4FF56C41C7B0FC4003F9B40 /* smegraphyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FF56C61C7B0FC4003F9B40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4FF56CF1C7B0FC4003F9B40 /* smegraphyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4FF56C11C7B0FC4003F9B40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4FF56AA1C7B0FC4003F9B40 /* smegraphy */;
+			targetProxy = D4FF56C01C7B0FC4003F9B40 /* PBXContainerItemProxy */;
+		};
+		D4FF56CC1C7B0FC4003F9B40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4FF56AA1C7B0FC4003F9B40 /* smegraphy */;
+			targetProxy = D4FF56CB1C7B0FC4003F9B40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4FF56B21C7B0FC4003F9B40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4FF56B31C7B0FC4003F9B40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4FF56B71C7B0FC4003F9B40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4FF56B81C7B0FC4003F9B40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4FF56D11C7B0FC4003F9B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4FF56D21C7B0FC4003F9B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4FF56D41C7B0FC4003F9B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = smegraphy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.gmail-wedliketothink.smegraphy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4FF56D51C7B0FC4003F9B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = smegraphy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.gmail-wedliketothink.smegraphy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4FF56D71C7B0FC4003F9B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = smegraphyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.gmail-wedliketothink.smegraphyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smegraphy.app/smegraphy";
+			};
+			name = Debug;
+		};
+		D4FF56D81C7B0FC4003F9B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = smegraphyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.gmail-wedliketothink.smegraphyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smegraphy.app/smegraphy";
+			};
+			name = Release;
+		};
+		D4FF56DA1C7B0FC4003F9B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = smegraphyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.gmail-wedliketothink.smegraphyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = smegraphy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D4FF56DB1C7B0FC4003F9B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = smegraphyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.gmail-wedliketothink.smegraphyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = smegraphy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4FF56A61C7B0FC4003F9B40 /* Build configuration list for PBXProject "smegraphy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4FF56D11C7B0FC4003F9B40 /* Debug */,
+				D4FF56D21C7B0FC4003F9B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4FF56D31C7B0FC4003F9B40 /* Build configuration list for PBXNativeTarget "smegraphy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4FF56D41C7B0FC4003F9B40 /* Debug */,
+				D4FF56D51C7B0FC4003F9B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4FF56D61C7B0FC4003F9B40 /* Build configuration list for PBXNativeTarget "smegraphyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4FF56D71C7B0FC4003F9B40 /* Debug */,
+				D4FF56D81C7B0FC4003F9B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4FF56D91C7B0FC4003F9B40 /* Build configuration list for PBXNativeTarget "smegraphyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4FF56DA1C7B0FC4003F9B40 /* Debug */,
+				D4FF56DB1C7B0FC4003F9B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4FF56A31C7B0FC4003F9B40 /* Project object */;
+}
