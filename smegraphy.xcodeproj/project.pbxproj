@@ -14,6 +14,24 @@
 		D4FF56B91C7B0FC4003F9B40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FF56B71C7B0FC4003F9B40 /* LaunchScreen.storyboard */; };
 		D4FF56C41C7B0FC4003F9B40 /* smegraphyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FF56C31C7B0FC4003F9B40 /* smegraphyTests.swift */; };
 		D4FF56CF1C7B0FC4003F9B40 /* smegraphyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FF56CE1C7B0FC4003F9B40 /* smegraphyUITests.swift */; };
+		D4FF56DD1C7B13BA003F9B40 /* pickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FF56DC1C7B13BA003F9B40 /* pickViewController.swift */; };
+		D4FF56DF1C7B1BED003F9B40 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FF56DE1C7B1BED003F9B40 /* ScanViewController.swift */; };
+		D4FF56E11C7B244F003F9B40 /* savedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FF56E01C7B244F003F9B40 /* savedViewController.swift */; };
+		D4FF56E31C7B2543003F9B40 /* dateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FF56E21C7B2543003F9B40 /* dateViewController.swift */; };
+		D4FF56E51C7B2D4D003F9B40 /* decidedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FF56E41C7B2D4D003F9B40 /* decidedViewController.swift */; };
+		D4FF56EA1C7B7A15003F9B40 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FF56E61C7B7A15003F9B40 /* 1.png */; };
+		D4FF56EB1C7B7A15003F9B40 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FF56E71C7B7A15003F9B40 /* 2.png */; };
+		D4FF56EC1C7B7A15003F9B40 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FF56E81C7B7A15003F9B40 /* 3.png */; };
+		D4FF56ED1C7B7A15003F9B40 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FF56E91C7B7A15003F9B40 /* 4.png */; };
+		D4FF56EF1C7B7F3C003F9B40 /* swing.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FF56EE1C7B7F3C003F9B40 /* swing.png */; };
+		D4FF56F11C7B8107003F9B40 /* frame.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4FF56F01C7B8107003F9B40 /* frame.jpg */; };
+		D4FF56F31C7B810F003F9B40 /* envelope.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4FF56F21C7B810F003F9B40 /* envelope.jpg */; };
+		D4FF56F51C7B8120003F9B40 /* album.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FF56F41C7B8120003F9B40 /* album.png */; };
+		D4FF56F71C7B8382003F9B40 /* deliver.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FF56F61C7B8382003F9B40 /* deliver.png */; };
+		D4FF56F91C7B8535003F9B40 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FF56F81C7B8535003F9B40 /* FirstViewController.swift */; };
+		D4FF56FB1C7B86D1003F9B40 /* tabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FF56FA1C7B86D1003F9B40 /* tabBarViewController.swift */; };
+		D4FF57011C7B8ABB003F9B40 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FF57001C7B8ABB003F9B40 /* camera.png */; };
+		D4FF57031C7B8ACA003F9B40 /* parcel.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FF57021C7B8ACA003F9B40 /* parcel.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +65,24 @@
 		D4FF56CA1C7B0FC4003F9B40 /* smegraphyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smegraphyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FF56CE1C7B0FC4003F9B40 /* smegraphyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smegraphyUITests.swift; sourceTree = "<group>"; };
 		D4FF56D01C7B0FC4003F9B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4FF56DC1C7B13BA003F9B40 /* pickViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pickViewController.swift; sourceTree = "<group>"; };
+		D4FF56DE1C7B1BED003F9B40 /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		D4FF56E01C7B244F003F9B40 /* savedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = savedViewController.swift; sourceTree = "<group>"; };
+		D4FF56E21C7B2543003F9B40 /* dateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dateViewController.swift; sourceTree = "<group>"; };
+		D4FF56E41C7B2D4D003F9B40 /* decidedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = decidedViewController.swift; sourceTree = "<group>"; };
+		D4FF56E61C7B7A15003F9B40 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		D4FF56E71C7B7A15003F9B40 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		D4FF56E81C7B7A15003F9B40 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		D4FF56E91C7B7A15003F9B40 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		D4FF56EE1C7B7F3C003F9B40 /* swing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swing.png; sourceTree = "<group>"; };
+		D4FF56F01C7B8107003F9B40 /* frame.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frame.jpg; sourceTree = "<group>"; };
+		D4FF56F21C7B810F003F9B40 /* envelope.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = envelope.jpg; sourceTree = "<group>"; };
+		D4FF56F41C7B8120003F9B40 /* album.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = album.png; sourceTree = "<group>"; };
+		D4FF56F61C7B8382003F9B40 /* deliver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deliver.png; sourceTree = "<group>"; };
+		D4FF56F81C7B8535003F9B40 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D4FF56FA1C7B86D1003F9B40 /* tabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabBarViewController.swift; sourceTree = "<group>"; };
+		D4FF57001C7B8ABB003F9B40 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		D4FF57021C7B8ACA003F9B40 /* parcel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parcel.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +134,26 @@
 			isa = PBXGroup;
 			children = (
 				D4FF56AE1C7B0FC4003F9B40 /* AppDelegate.swift */,
-				D4FF56B01C7B0FC4003F9B40 /* ViewController.swift */,
 				D4FF56B21C7B0FC4003F9B40 /* Main.storyboard */,
+				D4FF56F81C7B8535003F9B40 /* FirstViewController.swift */,
+				D4FF56B01C7B0FC4003F9B40 /* ViewController.swift */,
+				D4FF56DC1C7B13BA003F9B40 /* pickViewController.swift */,
+				D4FF56E01C7B244F003F9B40 /* savedViewController.swift */,
+				D4FF56DE1C7B1BED003F9B40 /* ScanViewController.swift */,
+				D4FF56E21C7B2543003F9B40 /* dateViewController.swift */,
+				D4FF56E41C7B2D4D003F9B40 /* decidedViewController.swift */,
+				D4FF56FA1C7B86D1003F9B40 /* tabBarViewController.swift */,
+				D4FF56E61C7B7A15003F9B40 /* 1.png */,
+				D4FF56E71C7B7A15003F9B40 /* 2.png */,
+				D4FF56E81C7B7A15003F9B40 /* 3.png */,
+				D4FF56E91C7B7A15003F9B40 /* 4.png */,
+				D4FF56EE1C7B7F3C003F9B40 /* swing.png */,
+				D4FF56F21C7B810F003F9B40 /* envelope.jpg */,
+				D4FF56F01C7B8107003F9B40 /* frame.jpg */,
+				D4FF56F41C7B8120003F9B40 /* album.png */,
+				D4FF56F61C7B8382003F9B40 /* deliver.png */,
+				D4FF57021C7B8ACA003F9B40 /* parcel.png */,
+				D4FF57001C7B8ABB003F9B40 /* camera.png */,
 				D4FF56B51C7B0FC4003F9B40 /* Assets.xcassets */,
 				D4FF56B71C7B0FC4003F9B40 /* LaunchScreen.storyboard */,
 				D4FF56BA1C7B0FC4003F9B40 /* Info.plist */,
@@ -229,8 +283,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4FF56F51C7B8120003F9B40 /* album.png in Resources */,
+				D4FF56F11C7B8107003F9B40 /* frame.jpg in Resources */,
 				D4FF56B91C7B0FC4003F9B40 /* LaunchScreen.storyboard in Resources */,
+				D4FF56ED1C7B7A15003F9B40 /* 4.png in Resources */,
+				D4FF56EA1C7B7A15003F9B40 /* 1.png in Resources */,
+				D4FF56F71C7B8382003F9B40 /* deliver.png in Resources */,
+				D4FF57031C7B8ACA003F9B40 /* parcel.png in Resources */,
+				D4FF56EB1C7B7A15003F9B40 /* 2.png in Resources */,
+				D4FF57011C7B8ABB003F9B40 /* camera.png in Resources */,
+				D4FF56EF1C7B7F3C003F9B40 /* swing.png in Resources */,
+				D4FF56EC1C7B7A15003F9B40 /* 3.png in Resources */,
 				D4FF56B61C7B0FC4003F9B40 /* Assets.xcassets in Resources */,
+				D4FF56F31C7B810F003F9B40 /* envelope.jpg in Resources */,
 				D4FF56B41C7B0FC4003F9B40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +321,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4FF56E51C7B2D4D003F9B40 /* decidedViewController.swift in Sources */,
+				D4FF56E31C7B2543003F9B40 /* dateViewController.swift in Sources */,
 				D4FF56B11C7B0FC4003F9B40 /* ViewController.swift in Sources */,
+				D4FF56F91C7B8535003F9B40 /* FirstViewController.swift in Sources */,
 				D4FF56AF1C7B0FC4003F9B40 /* AppDelegate.swift in Sources */,
+				D4FF56DD1C7B13BA003F9B40 /* pickViewController.swift in Sources */,
+				D4FF56FB1C7B86D1003F9B40 /* tabBarViewController.swift in Sources */,
+				D4FF56DF1C7B1BED003F9B40 /* ScanViewController.swift in Sources */,
+				D4FF56E11C7B244F003F9B40 /* savedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

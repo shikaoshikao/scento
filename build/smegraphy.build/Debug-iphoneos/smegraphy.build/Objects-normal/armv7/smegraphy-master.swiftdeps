@@ -1,0 +1,13 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "6c60d2d0f40c063078fcdbb4886ac928"
+build_time: [509874591, 174306000]
+inputs:
+  "/Users/yoshikik/Documents/my projects/smegraphy/smegraphy/savedViewController.swift": [509454916, 0]
+  "/Users/yoshikik/Documents/my projects/smegraphy/smegraphy/FirstViewController.swift": [9223372036854775807, 0]
+  "/Users/yoshikik/Documents/my projects/smegraphy/smegraphy/ViewController.swift": [509451992, 0]
+  "/Users/yoshikik/Documents/my projects/smegraphy/smegraphy/pickViewController.swift": [509450472, 0]
+  "/Users/yoshikik/Documents/my projects/smegraphy/smegraphy/decidedViewController.swift": [509457161, 0]
+  "/Users/yoshikik/Documents/my projects/smegraphy/smegraphy/AppDelegate.swift": [509449412, 0]
+  "/Users/yoshikik/Documents/my projects/smegraphy/smegraphy/ScanViewController.swift": [509457533, 0]
+  "/Users/yoshikik/Documents/my projects/smegraphy/smegraphy/tabBarViewController.swift": [9223372036854775807, 0]
+  "/Users/yoshikik/Documents/my projects/smegraphy/smegraphy/dateViewController.swift": [509482275, 0]
